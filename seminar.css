@@ -109,8 +109,14 @@ td {
 }
 
 /* -------------------- form -------------------- */
-#form_table {
-	width: 0 auto;
-	padding: 10px;
-	margin: 0 auto;
+#form_table tbody {
+	margin: 80%;
+  margin: o auto;
+}
+
+/* -------------------- mypage -------------------- */
+#mypage_table {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
 }
