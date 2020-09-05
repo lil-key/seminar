@@ -10,6 +10,7 @@
       <img src="images/top.jpg" title="top" id="image">
     
   <?php
+  /*
   $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
   $db['dbname'] = ltrim($db['path'], '/');
   $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
@@ -29,7 +30,7 @@
   $dbh=null;
   $rec=$stmt->fetch(PDO::FETCH_ASSOC);
   var_dump($rec);
-
+  */
   ?>
 
     <div id="nav">
@@ -67,7 +68,7 @@
               </tr> 
             </tbody>
           </table>
-              <button class="btn"><a href="form.html">参加申込はこちら</a></button>
+              <button class="btn"><a href="form.php">参加申込はこちら</a></button>
               
              
           </div>
